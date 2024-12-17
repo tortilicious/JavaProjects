@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking_Lot.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking_Lot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Convert a date/Parking_Lot.Topics-Processing_strings-Convert_a_date.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Convert a date/Parking_Lot.Topics-Processing_strings-Convert_a_date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Convert a date/Parking_Lot.Topics-Processing_strings-Convert_a_date.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Convert a date/Parking_Lot.Topics-Processing_strings-Convert_a_date.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Convert a date/Parking_Lot.Topics-Processing_strings-Convert_a_date.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Convert a date/Parking_Lot.Topics-Processing_strings-Convert_a_date.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Create a euphonious word/Parking_Lot.Topics-Processing_strings-Create_a_euphonious_word.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Create a euphonious word/Parking_Lot.Topics-Processing_strings-Create_a_euphonious_word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Create a euphonious word/Parking_Lot.Topics-Processing_strings-Create_a_euphonious_word.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Create a euphonious word/Parking_Lot.Topics-Processing_strings-Create_a_euphonious_word.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Create a euphonious word/Parking_Lot.Topics-Processing_strings-Create_a_euphonious_word.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Create a euphonious word/Parking_Lot.Topics-Processing_strings-Create_a_euphonious_word.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Double characters/Parking_Lot.Topics-Processing_strings-Double_characters.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Double characters/Parking_Lot.Topics-Processing_strings-Double_characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Double characters/Parking_Lot.Topics-Processing_strings-Double_characters.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Double characters/Parking_Lot.Topics-Processing_strings-Double_characters.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Double characters/Parking_Lot.Topics-Processing_strings-Double_characters.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Double characters/Parking_Lot.Topics-Processing_strings-Double_characters.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Parse url/Parking_Lot.Topics-Processing_strings-Parse_url.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Parse url/Parking_Lot.Topics-Processing_strings-Parse_url.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Parse url/Parking_Lot.Topics-Processing_strings-Parse_url.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Parse url/Parking_Lot.Topics-Processing_strings-Parse_url.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Parse url/Parking_Lot.Topics-Processing_strings-Parse_url.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Parse url/Parking_Lot.Topics-Processing_strings-Parse_url.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Theory/Parking_Lot.Topics-Processing_strings-Theory.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Theory/Parking_Lot.Topics-Processing_strings-Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Theory/Parking_Lot.Topics-Processing_strings-Theory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Theory/Parking_Lot.Topics-Processing_strings-Theory.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Theory/Parking_Lot.Topics-Processing_strings-Theory.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Processing strings/Theory/Parking_Lot.Topics-Processing_strings-Theory.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.test.iml" />
+    </modules>
+  </component>
+</project>

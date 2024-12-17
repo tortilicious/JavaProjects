@@ -1,0 +1,27 @@
+type: code
+files:
+  - name: src/Main.kt
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9043#comment
+status: Failed
+feedback:
+  message: |+
+    Failed test #1 of 5. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    https://target.com/index.html?pass=12345&port=8080&cookie=&host=localhost
+    Correct output:
+    pass : 12345
+    port : 8080
+    cookie : not found
+    host : localhost
+    password : 12345
+
+    Your code output:
+
+  time: "Tue, 12 Nov 2024 23:52:25 UTC"
+record: -1
+submission_language: kotlin
