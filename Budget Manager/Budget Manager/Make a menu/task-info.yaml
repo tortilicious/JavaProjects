@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/budget/Main.java
+    visible: true
+    learner_created: false
+  - name: test/BudgetManagerTest.java
+    visible: false
+    learner_created: false
+  - name: src/budget/model/Articulo.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/projects/76/stages/422/implement#comment
+status: Solved
+record: -1

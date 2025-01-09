@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: src/budget/Main.java
+    visible: true
+    learner_created: false
+  - name: src/budget/ui/Menu.java
+    visible: true
+    learner_created: false
+  - name: src/budget/model/Account.java
+    visible: true
+    learner_created: false
+  - name: src/budget/model/Purchase.java
+    visible: true
+    learner_created: false
+  - name: src/budget/file/FileManager.java
+    visible: true
+    learner_created: false
+  - name: purchases.txt
+    visible: true
+    learner_created: false
+  - name: test/BudgetManagerTest.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/76/stages/425/implement#comment
+status: Unchecked
+record: -1
