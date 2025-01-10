@@ -18,28 +18,17 @@ public class Main {
             try {
                 option = Integer.parseInt(sc.nextLine());
                 switch (option) {
-                    case 1 -> {
-                        menu.agregarIngreso(usuario);
-                    }
-                    case 2 -> {
-                        menu.agregarCompra(usuario);
-                    }
-                    case 3 -> {
-                        menu.mostrarTodosArticulos(usuario.getHistorialCompras());
-                    }
-                    case 4 -> {
-                        menu.mostrarBalance(usuario);
-                    }
-                    case 0 -> {
-                        menu.salir();
-                    }
-                    default -> {
-                        System.out.println("Invalid option");
+                    case 1 -> menu.agregarIngreso(usuario);
+                    case 2 -> menu.agregarCompra(usuario);
+                    case 3 -> menu.mostrarArticulos(usuario);
+                    case 4 -> menu.mostrarBalance(usuario);
+                    case 0 -> menu.salir();
+                    default -> System.out.println("Invalid option");
                     }
                 }
-
-            } catch (NumberFormatException e) {
+            catch (NumberFormatException e) {
                 System.out.println("Enter a valid numeric option");
+                System.out.println();
             }
 
         } while (option != 0);
