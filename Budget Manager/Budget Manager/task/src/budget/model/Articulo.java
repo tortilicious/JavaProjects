@@ -1,6 +1,8 @@
 package budget.model;
 
-public class Articulo {
+import java.io.Serializable;
+
+public class Articulo implements Serializable {
 
     private String nombre;
     private Double precio;

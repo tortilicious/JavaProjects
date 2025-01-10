@@ -22,6 +22,8 @@ public class Main {
                     case 2 -> menu.agregarCompra(usuario);
                     case 3 -> menu.mostrarArticulos(usuario);
                     case 4 -> menu.mostrarBalance(usuario);
+                    case 5 -> menu.guardarDatos(usuario);
+                    case 6 -> menu.leerDatos(usuario);
                     case 0 -> menu.salir();
                     default -> System.out.println("Invalid option");
                     }
