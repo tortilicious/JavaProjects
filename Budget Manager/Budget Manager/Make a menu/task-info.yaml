@@ -9,6 +9,15 @@ files:
   - name: src/budget/model/Articulo.java
     visible: true
     learner_created: true
+  - name: src/budget/cli/Menu.java
+    visible: true
+    learner_created: true
+  - name: src/budget/model/Usuario.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/projects/76/stages/422/implement#comment
 status: Solved
-record: -1
+feedback:
+  message: Congratulations!
+  time: "Fri, 10 Jan 2025 00:15:38 UTC"
+record: 2

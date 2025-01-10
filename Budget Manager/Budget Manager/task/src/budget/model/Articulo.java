@@ -33,17 +33,5 @@ public class Articulo {
         return String.format("%s $%.2f", nombre, precio);
     }
 
-    public static void mostrarTodosArticulos(List<Articulo> articulos) {
-        for (Articulo articulo : articulos) {
-            System.out.println(articulo.toString());
-        }
-    }
 
-    public static void mostrarCosteTotal(List<Articulo> articulos) {
-        double total = 0;
-        for (Articulo articulo : articulos) {
-            total += articulo.getPrecio();
-        }
-        System.out.printf("Total: $%.2f%n", total);
-    }
 }
