@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BudgetManagerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-10T16:13:30" hostname="DESKTOP-3O8HO5H" time="0.169">
+<testsuite name="BudgetManagerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-12T21:04:19" hostname="DESKTOP-3O8HO5H" time="0.177">
   <properties/>
-  <testcase name="start" classname="BudgetManagerTest" time="0.169"/>
+  <testcase name="start" classname="BudgetManagerTest" time="0.177"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Choose your action:
@@ -11,6 +11,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 0
@@ -24,6 +25,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 0
@@ -37,6 +39,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 4
@@ -49,6 +52,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 0
@@ -62,6 +66,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 1
@@ -76,6 +81,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 4
@@ -88,6 +94,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 1
@@ -102,6 +109,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 4
@@ -114,6 +122,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 0
@@ -127,6 +136,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 1
@@ -141,6 +151,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 2
@@ -366,6 +377,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 5
@@ -378,6 +390,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 0
@@ -391,6 +404,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 6
@@ -403,6 +417,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 4
@@ -415,6 +430,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 3
@@ -477,6 +493,7 @@ Choose your action:
 4) Balance
 5) Save
 6) Load
+7) Analyze (Sort)
 0) Exit
 
 > 0

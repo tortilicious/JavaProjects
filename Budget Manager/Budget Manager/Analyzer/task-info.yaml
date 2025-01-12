@@ -3,24 +3,28 @@ files:
   - name: src/budget/Main.java
     visible: true
     learner_created: false
-  - name: src/budget/ui/Menu.java
-    visible: true
-    learner_created: false
-  - name: src/budget/model/Account.java
-    visible: true
-    learner_created: false
-  - name: src/budget/model/Purchase.java
-    visible: true
-    learner_created: false
-  - name: src/budget/file/FileManager.java
-    visible: true
-    learner_created: false
-  - name: purchases.txt
-    visible: true
-    learner_created: false
   - name: test/BudgetManagerTest.java
     visible: false
     learner_created: false
+  - name: src/budget/model/Usuario.java
+    visible: true
+    learner_created: true
+  - name: src/budget/model/Articulo.java
+    visible: true
+    learner_created: true
+  - name: src/budget/cli/Menu.java
+    visible: true
+    learner_created: true
+  - name: src/budget/model/ListaCategoria.java
+    visible: true
+    learner_created: true
+  - name: purchases.txt
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/7028#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Sun, 12 Jan 2025 21:04:19 UTC"
+record: 5

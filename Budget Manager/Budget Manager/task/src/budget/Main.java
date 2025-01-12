@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         Menu menu = new Menu();
         Usuario usuario = new Usuario();
@@ -24,11 +23,11 @@ public class Main {
                     case 4 -> menu.mostrarBalance(usuario);
                     case 5 -> menu.guardarDatos(usuario);
                     case 6 -> menu.leerDatos(usuario);
+                    case 7 -> menu.ordenar(usuario);
                     case 0 -> menu.salir();
                     default -> System.out.println("Invalid option");
-                    }
                 }
-            catch (NumberFormatException e) {
+            } catch (NumberFormatException e) {
                 System.out.println("Enter a valid numeric option");
                 System.out.println();
             }
