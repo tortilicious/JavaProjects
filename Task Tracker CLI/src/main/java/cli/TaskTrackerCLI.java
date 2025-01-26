@@ -7,6 +7,7 @@ import service.TaskTrackerService;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class TaskTrackerCLI {
 
@@ -34,7 +35,6 @@ public class TaskTrackerCLI {
             }
         } while (choice != 5);
     }
-
 
     public void addTask() {
 
@@ -79,6 +79,7 @@ public class TaskTrackerCLI {
 
     private void exit() {
         System.out.println("Exiting...");
+        taskTrackerService.saveList();
         System.exit(0);
     }
 
@@ -97,7 +98,8 @@ public class TaskTrackerCLI {
                 1. TO DO
                 2. IN_PROGRESS
                 3. DONE
-                4. Exit
+                4. ALL
+                5. Exit
                 """);
     }
 
@@ -108,10 +110,7 @@ public class TaskTrackerCLI {
             int taskId = Integer.parseInt(scanner.nextLine());
 
             // Buscar la tarea por ID (no por índice)
-            Task taskToUpdate = taskTrackerService.getTasksList().stream()
-                    .filter(task -> task.getId() == taskId)
-                    .findFirst()
-                    .orElse(null);
+            Task taskToUpdate = taskTrackerService.getTask(taskId);
 
             if (taskToUpdate == null) {
                 System.out.println("Could not find task with id: " + taskId);
@@ -153,7 +152,48 @@ public class TaskTrackerCLI {
     }
 
     public void showTaskList() {
-        taskTrackerService.getTasksList().forEach(task -> System.out.println(task.toString()));
+        System.out.println("Filter tasks by status:");
+        showStatusMenu(); // Mostrar el menú de estados
+
+        try {
+            int option = Integer.parseInt(scanner.nextLine());
+
+            // Filtrar y mostrar las tareas según la opción seleccionada
+            List<Task> filteredTasks = filterTasksByStatus(option);
+
+            if (filteredTasks.isEmpty()) {
+                System.out.println("No tasks found with the selected status.");
+            } else {
+                filteredTasks.forEach(task -> System.out.println(task.toString()));
+            }
+
+        } catch (NumberFormatException e) {
+            System.out.println("Error: Please enter a valid number.");
+        }
+    }
+
+    private List<Task> filterTasksByStatus(int option) {
+        List<Task> tasks = taskTrackerService.getTasksList();
+
+        switch (option) {
+            case 1:
+                return tasks.stream()
+                        .filter(task -> task.getStatus() == Status.TODO)
+                        .collect(Collectors.toList());
+            case 2:
+                return tasks.stream()
+                        .filter(task -> task.getStatus() == Status.DONE)
+                        .collect(Collectors.toList());
+            case 3:
+                return tasks.stream()
+                        .filter(task -> task.getStatus() == Status.IN_PROGRESS)
+                        .collect(Collectors.toList());
+            case 4:
+                return tasks; // Mostrar todas las tareas
+            default:
+                System.out.println("Invalid option. Showing all tasks.");
+                return tasks; // Mostrar todas las tareas por defecto
+        }
     }
 
 
